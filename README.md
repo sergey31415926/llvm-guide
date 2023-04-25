@@ -103,7 +103,6 @@ llc -march=x86-64 test.ll -debug-pass=Structure | grep "Your pass desctiption"
 ```
 ```
 llc -march=x86-64 test.ll -stop-before=pass_name -o test.mir
-
 ```
 ```
 llc -march=x86-64 test.ll -stop-after=pass_name -o test.mir
